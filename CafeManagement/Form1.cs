@@ -20,6 +20,8 @@ namespace CafeManagement
 
         private void button3_Click(object sender, EventArgs e)
         { //btnReset
+
+            rtfReceipt.Clear();
             txtLatte.Text = "0";
             txtEspresso.Text = "0";
             txtMocha.Text = "0";
@@ -606,6 +608,11 @@ namespace CafeManagement
         }
 
         private void txtCheeseCake_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBostonCream_TextChanged(object sender, EventArgs e)
         {
 
         }
